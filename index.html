@@ -2,9 +2,32 @@
 <html>
     <head>
         <title>Demo HTML Page</title>
+        <style>
+            div {
+                margin: 16px;
+                padding: 8px;
+            }
+            .naslov {
+                color: red;
+            }
+            #prvi {
+                font-size: large;
+            }
+        </style>
     </head>
     <body>
-        <h1>Naslov dokumenta</h1>
-        <p>Ovo je nekakav demo tekst!</p>
+        <div>
+            <h1 class="naslov" id="prvi">Naslov dokumenta</h1>
+            <p>
+                Ovo je nekakav demo tekst!
+                <a href="https://www.algebra.hr" target="_blank">Link na algebra.hr</a>
+            </p>
+        </div>
+        <div>
+            <img src="https://placehold.co/600x400" alt="Logo firme">
+        </div>
+        <div>
+            <h1 class="naslov">Drugi naslov</h1>
+        </div>
     </body>
 </html>
